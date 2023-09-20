@@ -6,13 +6,15 @@
 
 let pergunta 
 let conta = 0
+let quantidade = 0
 while (pergunta !== "n") { 
   
   //alert(`Sua conta está em ${conta}`)
   pergunta = prompt(`Deseja comer coxinhas ? \n (s) - para sim \n (n) - Para não`)
   conta = conta + 2.50
-  alert(`Sua conta está em ${conta}`)
+  quantidade = quantidade + 1
+  alert(`Voce comeu ${quantidade} e sua conta está em ${conta}`)
   
 }
 
-alert(`Voce fechou a conta em ${conta}`)
+alert(`Voce fechou a conta: forma compradas ${quantidade} e sua conta a pagar ficou em  R$ ${conta}`)
