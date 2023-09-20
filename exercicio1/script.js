@@ -4,7 +4,7 @@
 
 // Toda vez que a resposta for **sim**, o laço deve se repetir, e devemos adicionar R$2.50 ao valor total. Quando a resposta não for **sim**, devemos imprimir o valor total da conta.
 
-let pergunta /*= prompt(`Deseja comer coxinhas ? \n (s) - para sim \n (n) - Para não`)*/
+let pergunta 
 let conta = 0
 while (pergunta !== "n") { 
   
@@ -14,4 +14,5 @@ while (pergunta !== "n") {
   alert(`Sua conta está em ${conta}`)
   
 }
+
 alert(`Voce fechou a conta em ${conta}`)
